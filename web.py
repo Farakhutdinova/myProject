@@ -4,8 +4,8 @@ import selector
 
 status = '200 OK'
 http_headers = [('Content-Type', 'text/html; charset=UTF-8')]
-ABOUTME = """<a href="about/aboutme.html"> ABOUTME.html </a>"""
-INDEX = """<a href="/index.html"> INDEX.html </a>"""
+ABOUTME = """<a href="about/aboutme.html"> aboutme.html </a>"""
+INDEX = """<a href="/index.html"> index.html </a>"""
 
 
 class Base(object):
